@@ -1,7 +1,7 @@
 ---
 title: Startups
 publishDate: 2023-08-27 00:00:00
-img: /assets/stock-3.jpg
+img: /assets/star.webp
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   We developed a virtual showcase for the softest bedding imaginable.

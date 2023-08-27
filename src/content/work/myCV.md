@@ -2,24 +2,62 @@
 title: My CV
 publishDate: 2023-08-27 00:00:00
 img: /assets/cv.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: My personal CV.
 description: |
-  We developed brand positioning and design assets for the launch
-  of a new colored water product.
+  My personal CV made with Canva.
 tags:
-  - Design
-  - Branding
+  - CV
 ---
 
 
-<button><a href="/assets/649369845.pdf" download> Download pdf</a></button>
+<a class="dwn" href="/assets/649369845.pdf" > Download pdf</a>
 
 
 
 <style>
-  .frame {
-    display: none; 
-    width: 600px;
-    height: 900px;
-  }
+  
+  .dwn{
+		position: relative;
+		display: flex;
+		place-content: center;
+		text-align: center;
+		padding: 0.56em 2em;
+		gap: 0.8em;
+		color: var(--accent-text-over);
+		text-decoration: none;
+		line-height: 1.1;
+		border-radius: 999rem;
+		overflow: hidden;
+		background: var(--gradient-accent-orange);
+		box-shadow: var(--shadow-md);
+		white-space: nowrap;
+	}
+
+	@media (min-width: 20em) {
+		.dwn  {
+			font-size: var(--text-lg);
+		}
+	}
+
+	/* Overlay for hover effects. */
+	.dwn::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		transition: background-color var(--theme-transition);
+		mix-blend-mode: overlay;
+	}
+
+	.dwn:focus::after,
+	.dwn:hover::after {
+		background-color: hsla(var(--gray-999-basis), 0.3);
+	}
+
+	@media (min-width: 50em) {
+		.dwn{
+			padding: 1.125rem 2.5rem;
+			font-size: var(--text-xl);
+		}
+	}
 </style>
