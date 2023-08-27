@@ -55,10 +55,10 @@ const projects = (await getCollection("work"))
     <main class="wrapper stack gap-20 lg:gap-48">
       <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Selected Work</h3>
+          <h3>Relevant Experience</h3>
           <p>
-            Take a look below at some of my featured work for clients from the
-            past few years.
+            This is the experience I can share, I have had these last years, and
+            it is related to programming.
           </p>
         </header>
 
@@ -84,10 +84,13 @@ const projects = (await getCollection("work"))
 
       <section class="section with-background bg-variant">
         <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Mentions</h3>
+          <h3 class="others">
+            Other Skills <Icon icon="saturn" size="1.2em" />
+          </h3>
+
           <p>
-            I have been fortunate enough to recieve praise for my work in
-            several publications. Take a look below to learn more.
+            These are some of my other titles and skills outside the programming
+            world.
           </p>
         </header>
 
@@ -95,11 +98,11 @@ const projects = (await getCollection("work"))
           <Grid variant="small">
             {
               [
-                "Medium",
-                "BuzzFeed",
-                "The Next Web",
-                "awwwards.",
-                "TechCrunch",
+                "Boat skipper",
+                "Professional photography",
+                "Philosophical essay",
+                "First Cambridge",
+                "Italian",
               ].map((brand) => (
                 <li class="mention-card">
                   <p>{brand}</p>
@@ -237,6 +240,15 @@ const projects = (await getCollection("work"))
   }
 
   /* ====================================================== */
+  .others:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 0.5rem 3rem rgba(150, 50, 255, 0.3);
+    transition: 1s;
+    border-radius: 1rem;
+  }
+  .others {
+    transition: 1s;
+  }
 
   .mention-card {
     display: flex;
@@ -249,8 +261,21 @@ const projects = (await getCollection("work"))
     color: var(--gray-300);
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-sm);
+    transition: 1s;
   }
-
+  .mention-card:hover {
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--gray-800);
+    border-radius: 2rem;
+    color: var(--gray-300);
+    background: var(--gradient-subtle);
+    box-shadow: var(--shadow-sm);
+    transition: 1s;
+  }
   @media (min-width: 50em) {
     .mention-card {
       border-radius: 1.5rem;
