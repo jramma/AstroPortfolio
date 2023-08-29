@@ -14,7 +14,8 @@ tags:
 
 > Tell me and I forget. Teach me and I remember. Involve me and I learn.
 
-In these competitions, I learned that _soft skills_ are as important as skills. Teamwork, setting realistic goals and good logistics are very important. It doesn't matter how good you are if you don't know how to handle the basics.
+In these competitions, I learned that _soft skills_ are
+as important as skills. Teamwork, setting realistic goals and good logistics are very important. It doesn't matter how good you are if you don't know how to handle the basics.
 
 ## Jump2Digital
 
@@ -67,4 +68,5 @@ Finally, the hackathon jury chose the team that has promoted the project 'Des/v√
 If you want to know more about how the hackathon worked, you will find all the information in [this link](https://cibernarium.barcelonactiva.cat/-/hackato-tech4good).
 
 <a href="https://www.linkedin.com/company/barcelona-activa/">Barcelona Activa</a> and <a href="https://www.linkedin.com/company/mwcapital/"> Mobile World Capital Barcelona</a> was the organizing company.
+
 
