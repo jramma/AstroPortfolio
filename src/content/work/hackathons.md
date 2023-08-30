@@ -69,4 +69,6 @@ If you want to know more about how the hackathon worked, you will find all the i
 
 <a href="https://www.linkedin.com/company/barcelona-activa/">Barcelona Activa</a> and <a href="https://www.linkedin.com/company/mwcapital/"> Mobile World Capital Barcelona</a> was the organizing company.
 
+# Check My Hackathons Nuwe's Profile [HERE](https://nuwe.io/dev/profile/jramma)
+
 
